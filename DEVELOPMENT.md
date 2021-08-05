@@ -16,7 +16,7 @@ poetry shell # activate virtualenv
 
 # Linting
 
-To run the lintig tools the same way CI (GitHub Actions) does:
+To run the linting tools the same way CI (GitHub Actions) does:
 
 ```
 ./lint.sh
