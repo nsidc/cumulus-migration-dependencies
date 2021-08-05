@@ -1,0 +1,4 @@
+[flake8]
+max-line-length = 100
+import_order_style = pycharm
+exclude = .aws-sam,.git,__pycache__,.pytest_cache,mypy-stubs,stubs,typeshed

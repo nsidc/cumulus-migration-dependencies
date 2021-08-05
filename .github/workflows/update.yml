@@ -2,11 +2,57 @@ name: update
 
 on:
   push:
-#   schedule:
-#     - cron: '*/5 * * * *'
+  schedule:
+    - cron: '23 1 * * *'
 
 jobs:
-  schedule_test:
+  lint:
     runs-on: ubuntu-latest
     steps:
-      - run: exit 1
+      # checkout + python/poetry setup
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9.x'
+      - uses: Gr1N/setup-poetry@v4
+      - uses: actions/cache@v2
+        with:
+          path: ~/.cache/pypoetry/virtualenvs
+          key: ${{ runner.os }}-poetry-${{ hashFiles('poetry.lock') }}
+      - run: poetry install && poetry run pip install --upgrade pip
+
+      # lint script
+      - run: ./lint.sh
+
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      # checkout + python/poetry setup
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9.x'
+      - uses: Gr1N/setup-poetry@v4
+      - uses: actions/cache@v2
+        with:
+          path: ~/.cache/pypoetry/virtualenvs
+          key: ${{ runner.os }}-poetry-${{ hashFiles('poetry.lock') }}
+      - run: poetry install && poetry run pip install --upgrade pip
+
+      # checkout other repos
+      - name: Checkout CIRRUS-core
+        uses: actions/checkout@v2
+        with:
+          repository: nsidc/CIRRUS-core
+          fetch-depth: 0
+          path: repos/CIRRUS-core
+          token: ${{ secrets.GH_PAT_DEPS_TOKEN }}
+      - name: Checkout CIRRUS-NSIDC
+        uses: actions/checkout@v2
+        with:
+          repository: nsidc/CIRRUS-NSIDC
+          fetch-depth: 0
+          path: repos/CIRRUS-NSIDC
+          token: ${{ secrets.GH_PAT_DEPS_TOKEN }}
+
+      - run: ./update.sh
