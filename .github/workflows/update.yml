@@ -9,4 +9,4 @@ jobs:
   schedule_test:
     runs-on: ubuntu-latest
     steps:
-      - run: echo hello there
+      - run: exit 1
