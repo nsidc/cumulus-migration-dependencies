@@ -1,17 +1,13 @@
 name: update
 
-on: push
-  # schedule:
-  #   - cron:  '*/1 * * * *'
+on:
+  push:
+  schedule:
+    - cron:  '*/3 * * * *'
 
 jobs:
-  update:
+  schedule_test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Check out my other private repo
-        uses: actions/checkout@main
-        with:
-          repository: nsidc/CIRRUS-core
-          token: ${{ secrets.GH_PAT_DEPS_TOKEN }}
-      - run: ./update.sh
+      - run: echo hello there
