@@ -6,7 +6,7 @@ build-backend = "poetry.core.masonry.api"
 name = "cumulus-migration-dependencies"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Michael Brandt <mbrandt@colorado.edu>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
