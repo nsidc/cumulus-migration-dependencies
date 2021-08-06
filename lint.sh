@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo $1
-
 source env.sh
 
 failures=0
