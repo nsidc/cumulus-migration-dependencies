@@ -1,0 +1,106 @@
+repos:
+- name: CIRRUS-NSIDC
+  source: nsidc/CIRRUS-NSIDC
+  path: repos/CIRRUS-NSIDC
+- name: CIRRUS-core
+  source: nsidc/CIRRUS-core
+  path: repos/CIRRUS-core
+
+components:
+
+# NASA components
+- name: Cumulus Core
+  owner: NASA
+  repo: CIRRUS-core
+  version:
+    file: cumulus/main.tf
+    regex: source = "https://github.com/nasa/cumulus/releases/download/(.*)/terraform-aws-cumulus.zip//tf-modules/cumulus"
+- name: Cumulus Message Adapter
+  owner: NASA
+  repo: CIRRUS-NSIDC
+  version:
+    file: daac/terraform.tfvars
+    regex: cma_version = "(.*)"
+
+# CIRRUS
+- name: asfadmin/CIRRUS-core
+  owner: ASF
+  repo: CIRRUS-core
+  version:
+    tag: 'v[0-9]*.[0-9]*.[0-9]*.[0-9]'
+- name: asfadmin/CIRRUS-DAAC
+  owner: ASF
+  repo: CIRRUS-NSIDC
+  version:
+    tag: 'v[0-9]*.[0-9]*.[0-9]*.[0-9]'
+
+- name: nsidc/CIRRUS-core
+  owner: NSIDC
+  repo: CIRRUS-core
+  version:
+    tag: 'v[0-9]*.[0-9]*.[0-9]*.[0-9]_NBP-NC-[0-9]*'
+    commit: true
+- name: nsidc/CIRRUS-NSIDC
+  owner: NSIDC
+  repo: CIRRUS-NSIDC
+  version:
+    tag: 'v[0-9]*.[0-9]*.[0-9]*.[0-9]_NBP-NC-[0-9]*'
+    commit: true
+
+# NSIDC Lambdas
+- name: BrowseImageryHDF5ToJPG
+  owner: NSIDC
+  repo: CIRRUS-NSIDC
+  version:
+    file: workflows/terraform.tfvars
+    regex: BrowseImageryHDF5ToJPG_version = "(.*)"
+
+- name: XMLTransformECS2ECHO10
+  owner: NSIDC
+  repo: CIRRUS-NSIDC
+  version:
+    file: workflows/terraform.tfvars
+    regex: XMLTransformECS2ECHO10_version = "(.*)"
+
+- name: XMLTransformISO2CMR
+  owner: NSIDC
+  repo: CIRRUS-NSIDC
+  version:
+    file: workflows/terraform.tfvars
+    regex: XMLTransformISO2CMR_version = "(.*)"
+
+# ASF - TEA
+- name: Thin Egress App (TEA)
+  owner: ASF
+  repo: CIRRUS-core
+  version:
+    file: cumulus/thin-egress.tf
+    regex: source = "s3::https://s3.amazonaws.com/asf.public.code/thin-egress-app/tea-terraform-build.(.*).zip"
+
+# GHRC - DMR++
+- name: DMR++ Generator Docker Image
+  owner: GHRC
+  repo: CIRRUS-core
+  version:
+    file: cumulus/main.tf
+    regex: '^\s*docker_image = "ghrcdaac/dmrpp-generator:(.*)"'
+- name: DMR++ Generator TF Module
+  owner: GHRC
+  repo: CIRRUS-core
+  version:
+    file: cumulus/main.tf
+    regex: source = "git::https://github.com/ghrcdaac/dmrpp-generator.git\?ref=(.*)"
+
+# PODAAC - CNM Lambdas
+- name: CNM Response
+  owner: PODAAC
+  repo: CIRRUS-NSIDC
+  version:
+    file: workflows/terraform.tfvars
+    regex: cnm_response_version = "(.*)"
+- name: CNM To Granule
+  owner: PODAAC
+  repo: CIRRUS-NSIDC
+  version:
+    file: workflows/terraform.tfvars
+    regex: cnm_to_granule_version = "(.*)"
