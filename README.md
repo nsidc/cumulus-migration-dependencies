@@ -7,7 +7,7 @@
 | asfadmin/CIRRUS-core | ASF | v9.2.2.0_NBP-NCG6-1 |
 | asfadmin/CIRRUS-DAAC | ASF | v9.2.2.0_NBP-NC-385 |
 | nsidc/CIRRUS-core | NSIDC | v9.2.0.0_NBP-NC-385 |
-| nsidc/CIRRUS-NSIDC | NSIDC | 6153f96 / v9.2.2.0_NBP-NC-385 |
+| nsidc/CIRRUS-NSIDC | NSIDC | e8489c2 / v9.2.2.0_NBP-NC-385 |
 | BrowseImageryHDF5ToJPG | NSIDC | 0.5.0 |
 | XMLTransformECS2ECHO10 | NSIDC | 0.2.7 |
 | XMLTransformISO2CMR | NSIDC | 0.8.3 |
@@ -26,7 +26,7 @@
 | asfadmin/CIRRUS-core | ASF | v9.2.2.0_NBP-NCG6-1 |
 | asfadmin/CIRRUS-DAAC | ASF | v9.2.2.0_NBP-NC-385 |
 | nsidc/CIRRUS-core | NSIDC | v9.2.0.0_NBP-NC-385 |
-| nsidc/CIRRUS-NSIDC | NSIDC | 6153f96 / v9.2.2.0_NBP-NC-385 |
+| nsidc/CIRRUS-NSIDC | NSIDC | c094602 / v9.2.2.0_NBP-NC-385 |
 | BrowseImageryHDF5ToJPG | NSIDC | 0.5.0 |
 | XMLTransformECS2ECHO10 | NSIDC | 0.2.7 |
 | XMLTransformISO2CMR | NSIDC | 0.8.3 |
@@ -45,7 +45,7 @@
 | asfadmin/CIRRUS-core | ASF | v9.2.2.0_NBP-NCG6-1 |
 | asfadmin/CIRRUS-DAAC | ASF | v9.2.2.0_NBP-NC-385 |
 | nsidc/CIRRUS-core | NSIDC | v9.2.0.0_NBP-NC-385 |
-| nsidc/CIRRUS-NSIDC | NSIDC | 6153f96 / v9.2.2.0_NBP-NC-385 |
+| nsidc/CIRRUS-NSIDC | NSIDC | c094602 / v9.2.2.0_NBP-NC-385 |
 | BrowseImageryHDF5ToJPG | NSIDC | 0.5.0 |
 | XMLTransformECS2ECHO10 | NSIDC | 0.2.7 |
 | XMLTransformISO2CMR | NSIDC | 0.8.3 |
