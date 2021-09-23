@@ -83,7 +83,7 @@ components:
   repo: CIRRUS-core
   version:
     file: cumulus/main.tf
-    regex: '^\s*docker_image = "ghrcdaac/dmrpp-generator:(.*)"'
+    regex: '^\s*docker_image = "(nsidc|ghrcdaac)/dmrpp-generator:(.*)"'
 - name: DMR++ Generator TF Module
   owner: GHRC
   repo: CIRRUS-core
