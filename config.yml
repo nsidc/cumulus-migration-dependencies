@@ -38,13 +38,13 @@ components:
   owner: NSIDC
   repo: CIRRUS-core
   version:
-    tag: 'v[0-9]*.[0-9]*.[0-9]*.[0-9]_NBP-NC-[0-9]*'
+    tag: 'v[0-9]*.[0-9]*.[0-9]*.[0-9]_NBP-NCG-[0-9]*'
     commit: true
 - name: nsidc/CIRRUS-NSIDC
   owner: NSIDC
   repo: CIRRUS-NSIDC
   version:
-    tag: 'v[0-9]*.[0-9]*.[0-9]*.[0-9]_NBP-NC-[0-9]*'
+    tag: 'v[0-9]*.[0-9]*.[0-9]*.[0-9]_NBP-NCG-[0-9]*'
     commit: true
 
 # NSIDC Lambdas
