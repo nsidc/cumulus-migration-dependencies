@@ -101,7 +101,7 @@ def version_from_tag_or_commit(version_pattern: str, path: str, commit: bool) ->
             + f"grep '^{tag_commit_sha}' | "
             + "sed -e 's,.* refs/tags/,,' -e 's/^{}//' | "  # noqa: P103
             + ' sort | '
-            + f"grep -E '{version_pattern}'"
+            + f"grep -E '^{version_pattern}$'"
         ),
         cwd=path,
     )
