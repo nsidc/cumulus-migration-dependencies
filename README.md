@@ -44,8 +44,8 @@
 | Cumulus Message Adapter | NASA | v1.3.0 |
 | asfadmin/CIRRUS-core | ASF | v9.2.2.0 |
 | asfadmin/CIRRUS-DAAC | ASF | v9.2.2.0 |
-| nsidc/CIRRUS-core | NSIDC | 43f84c7 / v9.7.0.0_NBP-NCG-38 |
-| nsidc/CIRRUS-NSIDC | NSIDC | v9.7.0.0_NBP-NCG-38 |
+| nsidc/CIRRUS-core | NSIDC | 2584c13 / v9.7.0.0_NBP-NCG-38 |
+| nsidc/CIRRUS-NSIDC | NSIDC | f86ad75 / v9.7.0.0_NBP-NCG-38 |
 | BrowseImageryHDF5ToJPG | NSIDC | 0.6.0 |
 | XMLTransformECS2ECHO10 | NSIDC | 0.3.0 |
 | XMLTransformISO2CMR | NSIDC | 0.9.1 |
