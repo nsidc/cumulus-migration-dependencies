@@ -149,6 +149,8 @@ def extract_re_match(filepath: str, regex: re.Pattern[str]) -> str:
         )
     else:
         match = matches[0]
+        if type(match) == tuple:
+            match = '/'.join(match)
 
     return match
 

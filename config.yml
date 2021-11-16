@@ -14,7 +14,7 @@ components:
   repo: CIRRUS-core
   version:
     file: cumulus/main.tf
-    regex: source = "https://github.com/nasa/cumulus/releases/download/(.*)/terraform-aws-cumulus.zip//tf-modules/cumulus"
+    regex: source = "https://github.com/(nasa|nsidc)/cumulus/releases/download/(.*)/terraform-aws-cumulus.zip//tf-modules/cumulus"
 - name: Cumulus Message Adapter
   owner: NASA
   repo: CIRRUS-NSIDC
@@ -83,7 +83,7 @@ components:
   repo: CIRRUS-core
   version:
     file: cumulus/main.tf
-    regex: '^\s*docker_image = "(?:nsidc|ghrcdaac)/dmrpp-generator:(.*)"'
+    regex: '^\s*docker_image = "(nsidc|ghrcdaac)/dmrpp-generator:(.*)"'
 - name: DMR++ Generator TF Module
   owner: GHRC
   repo: CIRRUS-core
