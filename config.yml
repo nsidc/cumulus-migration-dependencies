@@ -89,7 +89,7 @@ components:
   repo: CIRRUS-core
   version:
     file: cumulus/main.tf
-    regex: source = "git::https://github.com/ghrcdaac/dmrpp-generator.git\?ref=(.*)"
+    regex: source = "https://github.com/ghrcdaac/dmrpp-generator/releases/download/(.*)/dmrpp-generator.zip"
 
 # PODAAC - CNM Lambdas
 - name: CNM Response
