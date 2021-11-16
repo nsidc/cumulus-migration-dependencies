@@ -6,12 +6,28 @@
 import os
 import re
 import subprocess
-from typing import List, Optional, TypedDict
+from typing import List, Optional, Tuple, TypedDict, Union
 
 import click
 import yaml
 
 BRANCH_CHOICES = ['main', 'SBX', 'SIT', 'UAT', 'PROD']
+
+
+class Owner(TypedDict):
+    """The default owner of a component, and capture group index.
+
+    If the owner part of a regex is included in a capture group, this can be
+    used to specify which capture group has the owner string (by index), and who
+    the default owner is. If the default owner is found in the source, it will
+    not be listed on the version table; this allows for forked versions to be
+    clear (instead of just showing "could not find version"), and with less
+    clutter when a fork is not used.
+
+    """
+
+    default: str
+    index: int
 
 
 class Version(TypedDict, total=False):
@@ -27,6 +43,7 @@ class Version(TypedDict, total=False):
     file: str
     regex: str
     tag: str
+    onwer: Optional[Owner]
 
 
 class Component(TypedDict, total=False):
@@ -132,7 +149,7 @@ def shell(cmd: str, *, cwd: Optional[str] = None) -> str:
         raise e
 
 
-def extract_re_match(filepath: str, regex: re.Pattern[str]) -> str:
+def extract_re_match(filepath: str, regex: re.Pattern[str], owner: Optional[Owner]) -> str:
     """Return the regex's group match from the given filepath.
 
     For instance, if the file at `filepath` has a line `foobar`, and the regex
@@ -141,7 +158,7 @@ def extract_re_match(filepath: str, regex: re.Pattern[str]) -> str:
     with open(filepath, 'r') as f:
         text = f.read()
 
-    matches: List[str] = re.findall(regex, text)
+    matches: List[Union[str, Tuple[str]]] = re.findall(regex, text)
 
     if len(matches) != 1:
         raise Exception(
@@ -149,8 +166,15 @@ def extract_re_match(filepath: str, regex: re.Pattern[str]) -> str:
         )
     else:
         match = matches[0]
-        if type(match) == tuple:
-            match = '/'.join(match)
+
+        if (owner is not None) and (type(match) == tuple):
+            match_list: List[str] = list(match)
+            index = owner['index']
+            if match_list[index] == owner['default']:
+                match_list.pop(index)
+            match = '/'.join(match_list)
+
+        assert isinstance(match, str)
 
     return match
 
@@ -272,7 +296,7 @@ def main(config_file: str, branches: List[str], remote: str, output_file: Option
                 regex = parse_regex(version['regex'])
 
                 try:
-                    parsed_version = extract_re_match(filepath, regex)
+                    parsed_version = extract_re_match(filepath, regex, version.get('owner'))
                 except Exception:
                     parsed_version = 'could not find version'
             component['parsed_version'] = parsed_version
