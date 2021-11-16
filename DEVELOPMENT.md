@@ -35,7 +35,7 @@ To run the linting tools and automatically correct any fixable issues:
 * the `update` job runs `update.sh -o README.md`, and then pushes `README.md` if
   any changes are made
 * both jobs run daily at 1:23am
-* the secret env var `GH_PAT_DEPS_TOKEN` is set in GitHub with a personal access
-  token tied to Michael's account in order for CI to have permission to clone
-  nsidc/CIRRUS-NSIDC and nsidc/CIRRUS-core, as well as push updates back to this
-  repo
+* the secret env var `GH_PAT_DEPS_TOKEN` is set in the GitHub settings for this
+  repo with a personal access token tied to an account with permissions to clone
+  the repos listed at the top of `config.yml`, as well as permission to push
+  updates back to this repo
