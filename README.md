@@ -12,7 +12,7 @@
 | XMLTransformECS2ECHO10 | NSIDC | 0.3.0 |
 | XMLTransformISO2CMR | NSIDC | 0.9.4 |
 | Thin Egress App (TEA) | ASF | 115 |
-| DMR++ Generator Docker Image | GHRC | ghrcdaac/v3.1.1 |
+| DMR++ Generator Docker Image | GHRC | v3.1.1 |
 | DMR++ Generator TF Module | GHRC | v3.1.1 |
 | CNM Response | PODAAC | 1.4.1 |
 | CNM To Granule | PODAAC | 1.5.1 |
@@ -31,7 +31,7 @@
 | XMLTransformECS2ECHO10 | NSIDC | 0.3.0 |
 | XMLTransformISO2CMR | NSIDC | 0.9.4 |
 | Thin Egress App (TEA) | ASF | 115 |
-| DMR++ Generator Docker Image | GHRC | ghrcdaac/v3.1.1 |
+| DMR++ Generator Docker Image | GHRC | v3.1.1 |
 | DMR++ Generator TF Module | GHRC | v3.1.1 |
 | CNM Response | PODAAC | 1.4.1 |
 | CNM To Granule | PODAAC | 1.5.1 |
@@ -50,7 +50,7 @@
 | XMLTransformECS2ECHO10 | NSIDC | 0.3.0 |
 | XMLTransformISO2CMR | NSIDC | 0.9.4 |
 | Thin Egress App (TEA) | ASF | 115 |
-| DMR++ Generator Docker Image | GHRC | ghrcdaac/v3.1.1 |
+| DMR++ Generator Docker Image | GHRC | v3.1.1 |
 | DMR++ Generator TF Module | GHRC | v3.1.1 |
 | CNM Response | PODAAC | 1.4.1 |
 | CNM To Granule | PODAAC | 1.5.1 |
@@ -69,7 +69,7 @@
 | XMLTransformECS2ECHO10 | NSIDC | 0.3.0 |
 | XMLTransformISO2CMR | NSIDC | 0.9.4 |
 | Thin Egress App (TEA) | ASF | 115 |
-| DMR++ Generator Docker Image | GHRC | ghrcdaac/v3.1.1 |
+| DMR++ Generator Docker Image | GHRC | v3.1.1 |
 | DMR++ Generator TF Module | GHRC | v3.1.1 |
 | CNM Response | PODAAC | 1.4.1 |
 | CNM To Granule | PODAAC | 1.5.1 |
@@ -88,7 +88,7 @@
 | XMLTransformECS2ECHO10 | NSIDC | 0.3.0 |
 | XMLTransformISO2CMR | NSIDC | 0.9.4 |
 | Thin Egress App (TEA) | ASF | 115 |
-| DMR++ Generator Docker Image | GHRC | ghrcdaac/v3.1.1 |
+| DMR++ Generator Docker Image | GHRC | v3.1.1 |
 | DMR++ Generator TF Module | GHRC | v3.1.1 |
 | CNM Response | PODAAC | 1.4.1 |
 | CNM To Granule | PODAAC | 1.5.1 |
