@@ -83,7 +83,7 @@
 | asfadmin/CIRRUS-core | ASF | v9.2.2.0 |
 | asfadmin/CIRRUS-DAAC | ASF | v9.2.2.0 |
 | nsidc/CIRRUS-core | NSIDC | v9.7.0.0_NBP-NCG-70 |
-| nsidc/CIRRUS-NSIDC | NSIDC | 8139763 / v9.7.0.0_NBP-NCG-61 |
+| nsidc/CIRRUS-NSIDC | NSIDC | v9.7.0.0_NBP-NCG-70 |
 | BrowseImageryHDF5ToJPG | NSIDC | 0.6.0 |
 | XMLTransformECS2ECHO10 | NSIDC | 0.3.0 |
 | XMLTransformISO2CMR | NSIDC | 0.9.5 |
