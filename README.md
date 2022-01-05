@@ -7,10 +7,10 @@
 | asfadmin/CIRRUS-core | ASF | v9.2.2.0 |
 | asfadmin/CIRRUS-DAAC | ASF | v9.2.2.0 |
 | nsidc/CIRRUS-core | NSIDC | v9.7.0.0_NBP-NCG-70 |
-| nsidc/CIRRUS-NSIDC | NSIDC | d3cefbf / v9.7.0.0_NBP-NCG-70 |
-| BrowseImageryHDF5ToJPG | NSIDC | 0.7.0 |
-| XMLTransformECS2ECHO10 | NSIDC | 0.4.0 |
-| XMLTransformISO2CMR | NSIDC | 0.11.1 |
+| nsidc/CIRRUS-NSIDC | NSIDC | f917cf1 / v9.7.0.0_NBP-NCG-70 |
+| BrowseImageryHDF5ToJPG | NSIDC | 0.7.1 |
+| XMLTransformECS2ECHO10 | NSIDC | 0.4.1 |
+| XMLTransformISO2CMR | NSIDC | 0.11.2 |
 | Thin Egress App (TEA) | ASF | 115 |
 | DMR++ Generator Docker Image | GHRC | v3.1.2 |
 | DMR++ Generator TF Module | GHRC | v3.1.2 |
@@ -26,10 +26,10 @@
 | asfadmin/CIRRUS-core | ASF | v9.2.2.0 |
 | asfadmin/CIRRUS-DAAC | ASF | v9.2.2.0 |
 | nsidc/CIRRUS-core | NSIDC | v9.7.0.0_NBP-NCG-70 |
-| nsidc/CIRRUS-NSIDC | NSIDC | d3cefbf / v9.7.0.0_NBP-NCG-70 |
-| BrowseImageryHDF5ToJPG | NSIDC | 0.7.0 |
-| XMLTransformECS2ECHO10 | NSIDC | 0.4.0 |
-| XMLTransformISO2CMR | NSIDC | 0.11.1 |
+| nsidc/CIRRUS-NSIDC | NSIDC | f917cf1 / v9.7.0.0_NBP-NCG-70 |
+| BrowseImageryHDF5ToJPG | NSIDC | 0.7.1 |
+| XMLTransformECS2ECHO10 | NSIDC | 0.4.1 |
+| XMLTransformISO2CMR | NSIDC | 0.11.2 |
 | Thin Egress App (TEA) | ASF | 115 |
 | DMR++ Generator Docker Image | GHRC | v3.1.2 |
 | DMR++ Generator TF Module | GHRC | v3.1.2 |
@@ -45,10 +45,10 @@
 | asfadmin/CIRRUS-core | ASF | v9.2.2.0 |
 | asfadmin/CIRRUS-DAAC | ASF | v9.2.2.0 |
 | nsidc/CIRRUS-core | NSIDC | v9.7.0.0_NBP-NCG-70 |
-| nsidc/CIRRUS-NSIDC | NSIDC | d3cefbf / v9.7.0.0_NBP-NCG-70 |
-| BrowseImageryHDF5ToJPG | NSIDC | 0.7.0 |
-| XMLTransformECS2ECHO10 | NSIDC | 0.4.0 |
-| XMLTransformISO2CMR | NSIDC | 0.11.1 |
+| nsidc/CIRRUS-NSIDC | NSIDC | f917cf1 / v9.7.0.0_NBP-NCG-70 |
+| BrowseImageryHDF5ToJPG | NSIDC | 0.7.1 |
+| XMLTransformECS2ECHO10 | NSIDC | 0.4.1 |
+| XMLTransformISO2CMR | NSIDC | 0.11.2 |
 | Thin Egress App (TEA) | ASF | 115 |
 | DMR++ Generator Docker Image | GHRC | v3.1.2 |
 | DMR++ Generator TF Module | GHRC | v3.1.2 |
@@ -64,10 +64,10 @@
 | asfadmin/CIRRUS-core | ASF | v9.2.2.0 |
 | asfadmin/CIRRUS-DAAC | ASF | v9.2.2.0 |
 | nsidc/CIRRUS-core | NSIDC | v9.7.0.0_NBP-NCG-70 |
-| nsidc/CIRRUS-NSIDC | NSIDC | d3cefbf / v9.7.0.0_NBP-NCG-70 |
-| BrowseImageryHDF5ToJPG | NSIDC | 0.7.0 |
-| XMLTransformECS2ECHO10 | NSIDC | 0.4.0 |
-| XMLTransformISO2CMR | NSIDC | 0.11.1 |
+| nsidc/CIRRUS-NSIDC | NSIDC | f917cf1 / v9.7.0.0_NBP-NCG-70 |
+| BrowseImageryHDF5ToJPG | NSIDC | 0.7.1 |
+| XMLTransformECS2ECHO10 | NSIDC | 0.4.1 |
+| XMLTransformISO2CMR | NSIDC | 0.11.2 |
 | Thin Egress App (TEA) | ASF | 115 |
 | DMR++ Generator Docker Image | GHRC | v3.1.2 |
 | DMR++ Generator TF Module | GHRC | v3.1.2 |
@@ -83,10 +83,10 @@
 | asfadmin/CIRRUS-core | ASF | v9.2.2.0 |
 | asfadmin/CIRRUS-DAAC | ASF | v9.2.2.0 |
 | nsidc/CIRRUS-core | NSIDC | v9.7.0.0_NBP-NCG-70 |
-| nsidc/CIRRUS-NSIDC | NSIDC | d3cefbf / v9.7.0.0_NBP-NCG-70 |
-| BrowseImageryHDF5ToJPG | NSIDC | 0.7.0 |
-| XMLTransformECS2ECHO10 | NSIDC | 0.4.0 |
-| XMLTransformISO2CMR | NSIDC | 0.11.1 |
+| nsidc/CIRRUS-NSIDC | NSIDC | f917cf1 / v9.7.0.0_NBP-NCG-70 |
+| BrowseImageryHDF5ToJPG | NSIDC | 0.7.1 |
+| XMLTransformECS2ECHO10 | NSIDC | 0.4.1 |
+| XMLTransformISO2CMR | NSIDC | 0.11.2 |
 | Thin Egress App (TEA) | ASF | 115 |
 | DMR++ Generator Docker Image | GHRC | v3.1.2 |
 | DMR++ Generator TF Module | GHRC | v3.1.2 |
