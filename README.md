@@ -26,7 +26,7 @@
 | asfadmin/CIRRUS-core | ASF | v9.2.2.0 |
 | asfadmin/CIRRUS-DAAC | ASF | v9.2.2.0 |
 | nsidc/CIRRUS-core | NSIDC | 093af03 / v9.7.0.0_NBP-NCG-70 |
-| nsidc/CIRRUS-NSIDC | NSIDC | 6dbaa43 / v9.7.0.0_NBP-NCG-70 |
+| nsidc/CIRRUS-NSIDC | NSIDC | 56a9f92 / v9.7.0.0_NBP-NCG-70 |
 | BrowseImageryHDF5ToJPG | NSIDC | 0.7.1 |
 | XMLTransformECS2ECHO10 | NSIDC | 0.5.0 |
 | XMLTransformISO2CMR | NSIDC | 0.11.2 |
