@@ -6,8 +6,8 @@
 | Cumulus Message Adapter | NASA | v1.3.0 |
 | asfadmin/CIRRUS-core | ASF | v9.2.2.0 |
 | asfadmin/CIRRUS-DAAC | ASF | v9.2.2.0 |
-| nsidc/CIRRUS-core | NSIDC | v10.1.2.0_NBP-NCG-118 |
-| nsidc/CIRRUS-NSIDC | NSIDC | 5ff0ce3 / v10.1.2.0_NBP-NCG-118 |
+| nsidc/CIRRUS-core | NSIDC | v10.1.2.0_NBP-NCG-122 |
+| nsidc/CIRRUS-NSIDC | NSIDC | v10.1.2.0_NBP-NCG-122 |
 | BrowseImageryHDF5ToJPG | NSIDC | 0.7.2 |
 | XMLTransformECS2ECHO10 | NSIDC | 0.6.0 |
 | XMLTransformISO2CMR | NSIDC | 0.11.2 |
@@ -25,8 +25,8 @@
 | Cumulus Message Adapter | NASA | v1.3.0 |
 | asfadmin/CIRRUS-core | ASF | v9.2.2.0 |
 | asfadmin/CIRRUS-DAAC | ASF | v9.2.2.0 |
-| nsidc/CIRRUS-core | NSIDC | v10.1.2.0_NBP-NCG-118 |
-| nsidc/CIRRUS-NSIDC | NSIDC | 5ff0ce3 / v10.1.2.0_NBP-NCG-118 |
+| nsidc/CIRRUS-core | NSIDC | v10.1.2.0_NBP-NCG-122 |
+| nsidc/CIRRUS-NSIDC | NSIDC | v10.1.2.0_NBP-NCG-122 |
 | BrowseImageryHDF5ToJPG | NSIDC | 0.7.2 |
 | XMLTransformECS2ECHO10 | NSIDC | 0.6.0 |
 | XMLTransformISO2CMR | NSIDC | 0.11.2 |
@@ -44,8 +44,8 @@
 | Cumulus Message Adapter | NASA | v1.3.0 |
 | asfadmin/CIRRUS-core | ASF | v9.2.2.0 |
 | asfadmin/CIRRUS-DAAC | ASF | v9.2.2.0 |
-| nsidc/CIRRUS-core | NSIDC | v10.1.2.0_NBP-NCG-118 |
-| nsidc/CIRRUS-NSIDC | NSIDC | 5ff0ce3 / v10.1.2.0_NBP-NCG-118 |
+| nsidc/CIRRUS-core | NSIDC | v10.1.2.0_NBP-NCG-122 |
+| nsidc/CIRRUS-NSIDC | NSIDC | v10.1.2.0_NBP-NCG-122 |
 | BrowseImageryHDF5ToJPG | NSIDC | 0.7.2 |
 | XMLTransformECS2ECHO10 | NSIDC | 0.6.0 |
 | XMLTransformISO2CMR | NSIDC | 0.11.2 |
@@ -63,8 +63,8 @@
 | Cumulus Message Adapter | NASA | v1.3.0 |
 | asfadmin/CIRRUS-core | ASF | v9.2.2.0 |
 | asfadmin/CIRRUS-DAAC | ASF | v9.2.2.0 |
-| nsidc/CIRRUS-core | NSIDC | v10.1.2.0_NBP-NCG-118 |
-| nsidc/CIRRUS-NSIDC | NSIDC | v10.1.2.0_NBP-NCG-118 |
+| nsidc/CIRRUS-core | NSIDC | v10.1.2.0_NBP-NCG-122 |
+| nsidc/CIRRUS-NSIDC | NSIDC | v10.1.2.0_NBP-NCG-122 |
 | BrowseImageryHDF5ToJPG | NSIDC | 0.7.2 |
 | XMLTransformECS2ECHO10 | NSIDC | 0.6.0 |
 | XMLTransformISO2CMR | NSIDC | 0.11.2 |
@@ -82,7 +82,7 @@
 | Cumulus Message Adapter | NASA | v1.3.0 |
 | asfadmin/CIRRUS-core | ASF | v9.2.2.0 |
 | asfadmin/CIRRUS-DAAC | ASF | v9.2.2.0 |
-| nsidc/CIRRUS-core | NSIDC | v10.1.2.0_NBP-NCG-118 |
+| nsidc/CIRRUS-core | NSIDC | v10.1.2.0_NBP-NCG-122 |
 | nsidc/CIRRUS-NSIDC | NSIDC | v10.1.2.0_NBP-NCG-118 |
 | BrowseImageryHDF5ToJPG | NSIDC | 0.7.2 |
 | XMLTransformECS2ECHO10 | NSIDC | 0.6.0 |
